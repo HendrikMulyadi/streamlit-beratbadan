@@ -6,7 +6,7 @@ import pandas as pd
 # PAGE CONFIG
 # =============================
 st.set_page_config(
-    page_title="Prediksi BMI",
+    page_title="Prediksi Berat Badan",
     page_icon="⚖️",
     layout="centered"
 )
@@ -89,7 +89,7 @@ le = joblib.load("label_encoder.pkl")
 # =============================
 # HEADER
 # =============================
-st.markdown('<div class="title">⚖️ Prediksi BMI</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">⚖️ Prediksi Berat Badan</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Machine Learning Classification</div>', unsafe_allow_html=True)
 
 # =============================
