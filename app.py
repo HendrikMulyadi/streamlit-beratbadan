@@ -108,7 +108,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # =============================
 # PREDICTION
 # =============================
-if st.button("🔍 Prediksi BMI"):
+if st.button("🔍 Prediksi"):
     g = 0 if gender == "L" else 1
     data = pd.DataFrame([[g, tinggi, berat, imt]],
                          columns=['gender', 'tinggi', 'berat', 'imt'])
